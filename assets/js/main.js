@@ -397,5 +397,12 @@
 					$window.on('load', function() {
 						$main._show(location.hash.substr(1), true);
 					});
-
+					// $(document).ready(function() {
+					// 		$clone = $header.before($header.clone().addClass("clone"));
+						
+					// 	$(window).on("scroll", function() {
+					// 		var fromTop = $(window).scrollTop();
+					// 		$("body").toggleClass("down", (fromTop > 400));
+					// 	});
+					// });
 })(jQuery);

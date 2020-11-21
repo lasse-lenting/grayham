@@ -1659,3 +1659,6 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+.nk-isotope-item {
+	margin-left: 10px;
+}
